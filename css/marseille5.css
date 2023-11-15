@@ -1,0 +1,47 @@
+/*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*/
+.presentation-musees {
+    position: relative;
+}
+#image-acceuil img {
+    width: 100%;
+    height: auto;
+}
+#titre-musees {
+    position: absolute;
+    text-align: center;
+    color: #0500FF;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent pour la lisibilité */
+    padding: 10px;
+}
+.musees-marseille {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+}
+#sous-titre-musees-marseille {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#sous-titre-musees-marseille h2 {
+    margin-left: 15px;
+}
+#sous-titre-musees-marseille p {
+    margin-left: 15px;
+}
+.musees-marseille img {
+    width: 50%;
+    height: auto;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+  
+/*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*/

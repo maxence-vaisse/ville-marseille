@@ -1,0 +1,82 @@
+#image-page-histoire img {
+    height: 700px;
+    width: 100%;
+}
+
+h2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h2:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    background: black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-histoire {
+    border-radius: 3px;
+}
+
+.section {
+    display: flex;
+    margin: 0 100px;
+}
+
+.image-article {
+    flex: 50%;
+    padding: 0 50px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.texte-histoire {
+    margin: 0;
+    padding: 0px 10px;
+    background-color: rgba(205, 210, 219, 0.934);
+    border-radius: 5px;
+}
+
+
+.texte-article {
+    flex: 50%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block
+}
+
+#moyen-age {
+    width: 100%;
+}
+
+#port {
+    width: 90%;
+    height: 90%;
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .image-article {
+        display: flex;
+        order: 1;
+        justify-content: center;
+    }
+
+    .texte-article {
+        display: flex;
+        order: 2;
+        justify-content: center;
+        text-align: center;
+    }
+}

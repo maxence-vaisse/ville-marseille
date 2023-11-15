@@ -1,0 +1,130 @@
+/*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*/
+.presentation-randonnees {
+    position: relative;
+}
+#image-acceuil img {
+    width: 100%;
+    height: auto;
+}
+#titre-randonnées {
+    position: absolute;
+    text-align: center;
+    color: #0500FF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent pour la lisibilité */
+    padding: 10px;
+}
+.randonnee-calanques {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 3%;
+}
+#sous-titre-randonnee-calanques {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#sous-titre-randonnee-calanques h2 {
+    margin-left: 15px;
+}
+#sous-titre-randonnee-calanques p {
+    margin-left: 15px;
+}
+.randonnee-calanques img {
+    width: 50%;
+    height: auto;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.images-randonnee {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+}
+.grid-images-radonnee {
+    border: solid black;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.image-randonnee2 {
+    width: 100%;
+    height: auto;
+    grid-column: 1;
+    grid-row: 1;
+}
+.image-randonnee3 {
+    width: 100%;
+    height: auto;
+    grid-column: 2;
+    grid-row: 1;
+}
+.image-randonnee4 {
+    width: 100%;
+    height: auto;
+    grid-column: 1;
+    grid-row: 2;
+}
+.image-randonnee5 {
+    width: 100%;
+    height: auto;
+    grid-column: 2;
+    grid-row: 2;
+}
+.image-randonnee1 {
+    width: 100%;
+    position: relative;
+}
+.image-randonnee1 img {
+    width: 100%;
+    height: 100%;
+}
+.image-randonnee1 h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    z-index: 2;
+}
+.zoomable {
+    transition: transform 0.3s ease;
+}
+.zoomable:hover {
+    transform: scale(1.01);
+}
+.carte-presentation-randonnee {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.carte-randonnee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.frame-randonnee {
+    width: 80%; 
+    height: 80%; 
+}
+.paragraphe-randonnee {
+    width: 50%;
+    height: 500px;
+}
+.paragraphe-randonnee h3 {
+    color: #0500FF;
+}
+  
+/*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*/
