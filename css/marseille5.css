@@ -57,5 +57,16 @@ td {
 thead {
     background-color: #f2f2f2;
 }
-  
+.photo-musees {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.photo-musees img {
+    border: solid;
+    width: 100%;
+    height: auto;
+}  
 /*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*/
