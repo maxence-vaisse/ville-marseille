@@ -42,31 +42,49 @@
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
-table {
-    border: solid;
+.tableau {
     margin-top: 3%;
-    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+table {
+    border: 1px solid black;
+    width: 80%;
     border-collapse: collapse;
 }
-th,
-td {
+th {
     border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+td {
+    background-color: white;
+    border-right: 1px  solid black;
+    border-bottom: 1px solid black;
     padding: 8px;
     text-align: left;
 }
 thead {
-    background-color: #f2f2f2;
+    border: 2px solid black;
+    background-color: rgb(152, 176, 235);
 }
 .photo-musees {
-    border: solid;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+.photo-musees a {
+    margin-bottom: 2%;
+}
 .photo-musees img {
-    border: solid;
+    margin-top: 3%;
+    border-radius: 10px;
     width: 100%;
     height: auto;
 }  
 /*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*/
+
+/*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*/
