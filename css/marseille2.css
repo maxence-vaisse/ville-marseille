@@ -129,3 +129,37 @@
 }
   
 /*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*/
+
+/*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*/
+@media screen and (min-width: 1400px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+    body {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+    .randonnee-calanques {
+        border: solid;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .randonnee-calanques img {
+        border-radius: 15px;
+    }
+    #sous-titre-randonnee-calanques {
+        border-radius: 15px;
+    }
+    .display-none_700px {
+        display: none;
+    }
+    .paragraphe-randonnee {
+        border: solid;
+    }
+}
