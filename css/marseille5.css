@@ -88,14 +88,14 @@ thead {
 /*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*/
 
 /*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*//*↓ MEDIA QUERIES ↓*/
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1301px) {
     body {
       display: flex;
       flex-direction: column;
       
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) and (max-width: 1300px) {
     body {
       display: flex;
       justify-content: center;
@@ -112,9 +112,6 @@ thead {
     }
     .musees-marseille img {
         border-radius: 15px;
-    }
-    .tableau img {
-        display: none;
     }
 }
 @media screen and (max-width: 780px) {
@@ -140,7 +137,7 @@ thead {
     }
     .tableau img {
         display: none;
-    }
-      
+    }   
 }
+
 

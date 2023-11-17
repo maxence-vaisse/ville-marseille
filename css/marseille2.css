@@ -145,7 +145,6 @@
         align-items: center;
       }
     .randonnee-calanques {
-        border: solid;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -159,7 +158,35 @@
     .display-none_700px {
         display: none;
     }
-    .paragraphe-randonnee {
-        border: solid;
+}
+@media screen and (max-width: 1000px) {
+    body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
     }
+    .carte-presentation-randonnee {
+        border: solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+    }
+    .carte-presentation-randonnee {
+        border: solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .display-none_700px {
+        display: none;
+    }
+
 }
