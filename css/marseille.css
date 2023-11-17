@@ -280,12 +280,11 @@ h1 {
 }
 
 .Ligne-de-séparation {
-    margin-top: 8%;
-    margin-left: 110px;
+    border: solid #365fb6 1.5px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 2px;
-    background: #06F;
-    width: 1250px;
-    height: 2px;
 }
 
 #contactez-nous {
@@ -298,6 +297,10 @@ h1 {
 #contactez-nous img {
     width: 350px;
     height: auto;
+}
+
+#bouton-contact:hover {
+    opacity: 50%;
 }
 
 /*↑ MAIN ↑*/
@@ -323,6 +326,7 @@ h1 {
 /*↓ FOOTER ↓*/
 footer {
     background: no-repeat url("../images/head-header-footer/carte-ville.png");
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     padding-bottom: 50px;
