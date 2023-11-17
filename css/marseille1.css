@@ -79,4 +79,8 @@ h2:after {
         justify-content: center;
         text-align: center;
     }
+
+    .texte-histoire {
+        margin-top: 10px;
+    }
 }
