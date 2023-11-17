@@ -163,6 +163,12 @@ h1 {
 /*↓ MAIN ↓*/
 /*↓ MAIN ↓*/
 /*↓ MAIN ↓*/
+
+#text-contact {
+    text-align: center;
+    margin: 0 20px;
+}
+
 #image-page-acceuil {
     max-width: 100%;
     overflow: hidden;
@@ -191,54 +197,30 @@ h1 {
     height: 232px;
 }
 
-#histoire {
+.rubrique {
+    margin-bottom: 7.5%;
     background-color: white;
     height: 500px;
+    width: 400px;
 }
 
-#randonnées {
-    background-color: white;
-    height: 500px;
+.image-lien-accueil:hover {
+    cursor: pointer;
+    opacity: 0.70;
 }
 
-#plages {
-    background-color: white;
-    height: 500px;
-}
-
-#histoire h3 {
+.rubrique h3 {
     margin-left: 15px;
     background-color: white;
     color: black;
 }
 
-#randonnées h3 {
-    margin-left: 15px;
-    color: black;
-}
-
-#plages h3 {
-    margin-left: 15px;
-    color: black;
-}
-
-#histoire p {
-    margin-left: 15px;
-    color: #0066FF;
-}
-
-#randonnées p {
-    margin-left: 15px;
-    color: #0066FF;
-}
-
-#plages p {
+.rubrique p {
     margin-left: 15px;
     color: #0066FF;
 }
 
 #parcs-musées {
-    margin-top: 4%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -249,39 +231,8 @@ h1 {
     height: 232px;
 }
 
-#parcs {
-    background-color: white;
-    height: 500px;
-}
-
-#musées {
-    background-color: white;
-    height: 500px;
-}
-
-#parcs h3 {
-    margin-left: 15px;
-    color: black;
-}
-
-#musées h3 {
-    margin-left: 15px;
-    color: black;
-}
-
-#parcs p {
-    margin-left: 15px;
-    color: #0066FF;
-}
-
-#musées p {
-    margin-left: 15px;
-    color: #0066FF;
-}
-
 .Ligne-de-séparation {
     border: solid #365fb6 1.5px;
-    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 2px;
@@ -354,3 +305,25 @@ h3 {
 /*↑ FOOTER ↑*/
 /*↑ FOOTER ↑*/
 /*↑ FOOTER ↑*/
+
+
+@media screen and (max-width: 600px) {
+    #histoire-randonées-plages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #parcs-musées {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rubrique {
+        margin-bottom: 20px;
+    }
+}
