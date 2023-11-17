@@ -2,7 +2,19 @@
     height: 700px;
     width: 100%;
 }
-
+.presentation-parcs {
+    position: relative;
+}
+#titre-histoires {
+    position: absolute;
+    text-align: center;
+    color: #0500FF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent pour la lisibilité */
+    padding: 10px;
+}
 .container {
     width: 80%;
     margin: auto;
