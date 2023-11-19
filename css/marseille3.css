@@ -1,33 +1,45 @@
-body, html {
-    margin:0;
+body,
+html {
+    margin: 0;
     padding: 0;
     font-family: Verdana, Arial, sans-serif;
     background: url("../images/images-plages/sable.jpg") fixed;
 }
 
-/*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*//*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
+/*↓ MAIN ↓*/
 
-h2{
+h2 {
     margin-top: 150px;
     margin-bottom: 100px;
     text-align: center;
     color: #0500FF;
 }
 
-.plage-top{
+.plage-top {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 70px;
 }
 
-.plage1 img{
+.plage img {
     width: 300px;
     height: 300px;
     border-radius: 30px;
+    padding: 20px;
 }
 
-.plage1{
+.plage {
     color: white;
     text-align: center;
     background-color: #0088ff;
@@ -36,141 +48,21 @@ h2{
     border: 4px #ffffff solid;
 }
 
-.plage2 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-
-.plage2{
-    color: white;
-    text-align: center;
-    background-color: #0088ff;
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px #ffffff solid;
-}
-
-.plage3 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-
-.plage3{
-    color: white;
-    text-align: center;
-    background-color: #0088ff;
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px #ffffff solid;
-}
-
-.plage-mid{
+.plage-mid {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 70px;
 }
 
-.plage4 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-
-.plage4{
-    color: white;
-    text-align: center;
-    background-color: #0088ff;
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px #ffffff solid;
-}
-
-.plage5 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-
-.plage5{
-    color: white;
-    text-align: center;
-    background-color: #0088ff;
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px #ffffff solid;
-}
-
-.plage6 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-
-.plage6{
-    color: white;
-    text-align: center;
-    background-color: #0088ff;
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px #ffffff solid;
-}
-
-.plage-bottom{
+.plage-bottom {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 70px;
 }
 
-.plage7 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-
-.plage7{
-    color: white;
-    text-align: center;
-    background-color: #0088ff;
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px #ffffff solid;
-}
-
-.plage8 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-
-.plage8{
-    color: white;
-    text-align: center;
-    background-color: #0088ff;
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px #ffffff solid;
-}
-
-.plage9 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-
-.plage9{
-    color: white;
-    text-align: center;
-    background-color: #0088ff;
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px #ffffff solid;
-}
-
-button{
+button {
     padding: 9px 25px;
     background-color: white;
     border: none;
@@ -179,4 +71,33 @@ button{
     color: #a69712;
 }
 
-/*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*//*↑ MAIN ↑*/
+button:hover {
+    opacity: 70%;
+}
+
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+/*↑ MAIN ↑*/
+
+@media screen and (max-width: 600px) {
+
+    .plage-top,
+    .plage-mid,
+    .plage-bottom {
+        flex-direction: column;
+        padding-bottom: 0px
+    }
+
+    .plage {
+        margin-bottom: 15px;
+    }
+
+}

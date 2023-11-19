@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/images-contact/calanque.png);
+    background-size: cover;
+}
+
+.section-contact {
+    color: white;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bordform {
+    border-radius: 3vh;
+    border-color: rgba(94, 150, 223, 0.562);
+    margin-bottom: 2vh;
+}
+
+
+
+#message {
+    border-radius: 1vh;
+    border-color: rgba(94, 150, 223, 0.562);
+    margin-bottom: 1vh;
+}
+
+#bouton {
+    border-radius: 3vh;
+}
+
+#bouton:hover {
+    opacity: 50%;
+    cursor: pointer;
+}

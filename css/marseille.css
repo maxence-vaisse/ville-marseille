@@ -220,6 +220,19 @@ h1 {
     color: #0066FF;
 }
 
+button {
+    padding: 9px 25px;
+    background-color: #0066FF;
+    border: #0066FF solid 1px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
 #parcs-musées {
     display: flex;
     flex-direction: row;
